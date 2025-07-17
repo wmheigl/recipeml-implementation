@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RecipeML Implementation - Test Interface</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        .hero-section {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 4rem 0;
+        }
+        .feature-card {
+            transition: transform 0.2s ease-in-out;
+            border: none;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+        }
+        .code-block {
+            background: #f8f9fa;
+            border-left: 4px solid #007bff;
+            padding: 1rem;
+            font-family: 'Monaco', 'Menlo', monospace;
+            font-size: 0.875rem;
+        }
+        .upload-area {
+            border: 2px dashed #dee2e6;
+            border-radius: 8px;
+            padding: 2rem;
+            text-align: center;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        .upload-area:hover, .upload-area.dragover {
+            border-color: #007bff;
+            background-color: #f8f9fa;
+        }
+        .example-preview {
+            height: 200px;
+            overflow: hidden;
+            position: relative;
+        }
+        .example-preview::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 50px;
+            background: linear-gradient(transparent, white);
+        }
+        .status-indicator {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: 8px;
+        }
+        .status-success { background-color: #28a745; }
+        .status-error { background-color: #dc3545; }
+        .status-warning { background-color: #ffc107; }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i data-lucide="book-open" class="me-2"></i>
+                RecipeML Implementation
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#examples">Examples</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#test">Test Your Recipe</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#documentation">Documentation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/your-username/recipeml-implementation" target="_blank">
+                            <i data-lucide="github" class="me-1"></i>
+                            GitHub
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container text-center">
+            <h1 class="display-4 fw-bold mb-4">RecipeML Implementation</h1>
+            <p class="lead mb-4">
+                Complete RecipeML 0.5 specification with modern HTML rendering
+            </p>
+            <p class="mb-4">
+                Test XML recipe documents with DTD validation and Bootstrap-styled XSL transformation
+            </p>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="d-flex justify-content-center gap-3 flex-wrap">
+                        <span class="badge bg-light text-dark fs-6">
+                            <span class="status-indicator status-success"></span>
+                            DTD Complete
+                        </span>
+                        <span class="badge bg-light text-dark fs-6">
+                            <span class="status-indicator status-success"></span>
+                            XSL Responsive
+                        </span>
+                        <span class="badge bg-light text-dark fs-6">
+                            <span class="status-indicator status-success"></span>
+                            Bootstrap 5
+                        </span>
+                        <span class="badge bg-light text-dark fs-6">
+                            <span class="status-indicator status-success"></span>
+                            Cross-Browser
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="card feature-card h-100">
+                        <div class="card-body text-center">
+                            <i data-lucide="file-text" class="text-primary mb-3" style="width: 48px; height: 48px;"></i>
+                            <h5>Complete DTD</h5>
+                            <p class="card-text">
+                                Full RecipeML 0.5 specification implementation with all elements, 
+                                attributes, and content models properly defined.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card feature-card h-100">
+                        <div class="card-body text-center">
+                            <i data-lucide="palette" class="text-primary mb-3" style="width: 48px; height: 48px;"></i>
+                            <h5>Modern Styling</h5>
+                            <p class="card-text">
+                                Bootstrap 5 responsive design with Lucide icons, 
+                                proper fraction formatting, and mobile-friendly layouts.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card feature-card h-100">
+                        <div class="card-body text-center">
+                            <i data-lucide="check-circle" class="text-primary mb-3" style="width: 48px; height: 48px;"></i>
+                            <h5>Browser Testing</h5>
+                            <p class="card-text">
+                                Works in all modern browsers with direct XML viewing 
+                                or through this convenient testing interface.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Examples Section -->
+    <section id="examples" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2>Example Recipes</h2>
+                <p class="lead">Explore comprehensive examples demonstrating all RecipeML features</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-header d-flex justify-content-between align-items-center">
+                            <h6 class="mb-0">Simple Recipe</h6>
+                            <span class="badge bg-success">Basic</span>
+                        </div>
+                        <div class="card-body">
+                            <h6>Chocolate Chip Cookies</h6>
+                            <p class="text-muted small">
+                                Demonstrates fractions, ranges, equipment lists, 
+                                nutrition data, and basic recipe structure.
+                            </p>
+                            <div class="example-preview">
+                                <div class="code-block">
+&lt;recipe&gt;
+  &lt;head&gt;
+    &lt;title&gt;Classic Chocolate Chip Cookies&lt;/title&gt;
+    &lt;yield&gt;&lt;qty&gt;24&lt;/qty&gt; &lt;unit&gt;cookies&lt;/unit&gt;&lt;/yield&gt;
+  &lt;/head&gt;
+  &lt;ingredients&gt;
+    &lt;ing&gt;
+      &lt;amt&gt;&lt;qty&gt;2&lt;frac&gt;&lt;n&gt;1&lt;/n&gt;&lt;d&gt;4&lt;/d&gt;&lt;/frac&gt;&lt;/qty&gt; &lt;unit&gt;cups&lt;/unit&gt;&lt;/amt&gt;
+      &lt;item&gt;all-purpose flour&lt;/item&gt;
+    &lt;/ing&gt;
+    ...
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <a href="examples/simple-recipe.xml" class="btn btn-primary btn-sm" target="_blank">
+                                <i data-lucide="external-link" class="me-1" style="width: 16px; height: 16px;"></i>
+                                View Recipe
+                            </a>
+                            <a href="examples/simple-recipe.xml" class="btn btn-outline-secondary btn-sm ms-2" download>
+                                <i data-lucide="download" class="me-1" style="width: 16px; height: 16px;"></i>
+                                Download XML
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-header d-flex justify-content-between align-items-center">
+                            <h6 class="mb-0">Complex Recipe</h6>
+                            <span class="badge bg-warning">Advanced</span>
+                        </div>
+                        <div class="card-body">
+                            <h6>Beef Wellington</h6>
+                            <p class="text-muted small">
+                                Advanced features: ingredient divisions, direction sections, 
+                                tool references, sub-steps, and detailed metadata.
+                            </p>
+                            <div class="example-preview">
+                                <div class="code-block">
+&lt;recipe system="metric"&gt;
+  &lt;head&gt;
+    &lt;title&gt;Beef Wellington with Red Wine Reduction&lt;/title&gt;
+    &lt;preptime type="preparation"&gt;45 minutes&lt;/preptime&gt;
+    &lt;preptime type="cooking"&gt;35 minutes&lt;/preptime&gt;
+  &lt;/head&gt;
+  &lt;ingredients&gt;
+    &lt;ing-div type="main"&gt;
+      &lt;title&gt;Beef Wellington&lt;/title&gt;
+      ...
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <a href="examples/complex-recipe.xml" class="btn btn-primary btn-sm" target="_blank">
+                                <i data-lucide="external-link" class="me-1" style="width: 16px; height: 16px;"></i>
+                                View Recipe
+                            </a>
+                            <a href="examples/complex-recipe.xml" class="btn btn-outline-secondary btn-sm ms-2" download>
+                                <i data-lucide="download" class="me-1" style="width: 16px; height: 16px;"></i>
+                                Download XML
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-header d-flex justify-content-between align-items-center">
+                            <h6 class="mb-0">Menu Document</h6>
+                            <span class="badge bg-info">Menu</span>
+                        </div>
+                        <div class="card-body">
+                            <h6>Spring Dinner Party</h6>
+                            <p class="text-muted small">
+                                Menu structure with multiple recipes, course organization, 
+                                wine pairings, and planning notes.
+                            </p>
+                            <div class="example-preview">
+                                <div class="code-block">
+&lt;menu&gt;
+  &lt;head&gt;
+    &lt;title&gt;Spring Dinner Party Menu&lt;/title&gt;
+    &lt;categories&gt;
+      &lt;cat type="season"&gt;spring&lt;/cat&gt;
+      &lt;cat type="occasion"&gt;dinner party&lt;/cat&gt;
+    &lt;/categories&gt;
+  &lt;/head&gt;
+  &lt;recipe&gt;
+    &lt;head&gt;&lt;title&gt;Asparagus and Pea Soup&lt;/title&gt;&lt;/head&gt;
+    ...
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <a href="examples/menu-example.xml" class="btn btn-primary btn-sm" target="_blank">
+                                <i data-lucide="external-link" class="me-1" style="width: 16px; height: 16px;"></i>
+                                View Menu
+                            </a>
+                            <a href="examples/menu-example.xml" class="btn btn-outline-secondary btn-sm ms-2" download>
+                                <i data-lucide="download" class="me-1" style="width: 16px; height: 16px;"></i>
+                                Download XML
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Test Section -->
+    <section id="test" class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2>Test Your Recipe</h2>
+                <p class="lead">Upload your own RecipeML files to see them rendered</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="upload-area" id="uploadArea">
+                                <i data-lucide="upload-cloud" class="text-muted mb-3" style="width: 48px; height: 48px;"></i>
+                                <h5>Drop your RecipeML file here</h5>
+                                <p class="text-muted">or click to browse for files</p>
+                                <input type="file" id="fileInput" accept=".xml" style="display: none;">
+                                <button class="btn btn-outline-primary" onclick="document.getElementById('fileInput').click()">
+                                    Choose File
+                                </button>
+                            </div>
+                            <div id="fileStatus" class="mt-3" style="display: none;"></div>
+                            <div id="renderResult" class="mt-4" style="display: none;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Documentation Section -->
+    <section id="documentation" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2>Documentation</h2>
+                <p class="lead">Learn how to create and use RecipeML documents</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5 class="mb-0">
+                                <i data-lucide="book" class="me-2"></i>
+                                Quick Start
+                            </h5>
+                        </div>
+                        <div class="card-body">
+                            <h6>Basic Recipe Structure</h6>
+                            <div class="code-block">
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE recipeml PUBLIC "-//FormatData//DTD RecipeML 0.5//EN" "dtd/recipeml.dtd"&gt;
+&lt;recipeml version="0.5" xml:lang="en"&gt;
+  &lt;recipe&gt;
+    &lt;head&gt;
+      &lt;title&gt;My Recipe&lt;/title&gt;
+      &lt;yield&gt;&lt;qty&gt;4&lt;/qty&gt; &lt;unit&gt;servings&lt;/unit&gt;&lt;/yield&gt;
+    &lt;/head&gt;
+    &lt;ingredients&gt;
+      &lt;ing&gt;
+        &lt;amt&gt;&lt;qty&gt;2&lt;/qty&gt; &lt;unit&gt;cups&lt;/unit&gt;&lt;/amt&gt;
+        &lt;item&gt;flour&lt;/item&gt;
+      &lt;/ing&gt;
+    &lt;/ingredients&gt;
+    &lt;directions&gt;
+      &lt;step&gt;Mix ingredients together.&lt;/step&gt;
+    &lt;/directions&gt;
+  &lt;/recipe&gt;
+&lt;/recipeml&gt;
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5 class="mb-0">
+                                <i data-lucide="settings" class="me-2"></i>
+                                Advanced Features
+                            </h5>
+                        </div>
+                        <div class="card-body">
+                            <h6>Fractions and Ranges</h6>
+                            <div class="code-block">
+&lt;!-- Fraction: 2¼ cups --&gt;
+&lt;qty&gt;2&lt;frac&gt;&lt;n&gt;1&lt;/n&gt;&lt;d&gt;4&lt;/d&gt;&lt;/frac&gt;&lt;/qty&gt;
+
+&lt;!-- Range: 3-4 minutes --&gt;
+&lt;range&gt;&lt;q1&gt;3&lt;/q1&gt;&lt;sep&gt;to&lt;/sep&gt;&lt;q2&gt;4&lt;/q2&gt;&lt;/range&gt;
+
+&lt;!-- Alternative ingredients --&gt;
+&lt;ing&gt;
+  &lt;item&gt;chocolate chips&lt;/item&gt;
+  &lt;alt-ing&gt;&lt;item&gt;chopped walnuts&lt;/item&gt;&lt;/alt-ing&gt;
+&lt;/ing&gt;
+
+&lt;!-- Equipment references --&gt;
+&lt;step&gt;
+  Use a &lt;toolref toolid="mixer"&gt;stand mixer&lt;/toolref&gt;
+&lt;/step&gt;
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="https://github.com/your-username/recipeml-implementation" class="btn btn-primary btn-lg" target="_blank">
+                    <i data-lucide="github" class="me-2"></i>
+                    View Full Documentation on GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h6>RecipeML Implementation</h6>
+                    <p class="text-muted">
+                        Complete implementation of RecipeML 0.5 specification with modern rendering.
+                    </p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="text-muted">
+                        Licensed under MIT License<br>
+                        RecipeML specification by FormatData
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+    </script>
+</body>
+</html>
