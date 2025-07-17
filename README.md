@@ -72,7 +72,7 @@ recipeml-implementation/
 │   └── js/
 │       └── app.js          # Static website functionality
 └── docs/
-    └── specification.md    # RecipeML specification notes
+    ├── specification.md    # RecipeML specification notes
     ├── getting-started.md  # Tutorial
     └── examples.md         # Example explanations
 ```
