@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE recipeml PUBLIC "-//FormatData//DTD RecipeML 0.5//EN" "recipeml.dtd">
+<recipeml version="0.5" xml:lang="en">
+  <meta name="DC.Title" content="Beef Wellington with Red Wine Reduction"/>
+  <meta name="DC.Creator" content="Chef Auguste"/>
+  <meta name="DC.Date" content="2024-03-20"/>
+  <meta name="DC.Description" content="Classic French beef wellington with mushroom duxelles"/>
+  <meta name="DC.Type" content="Main Course"/>
+  <meta name="DC.Subject" content="French Cuisine, Holiday Cooking"/>
+  
+  <recipe system="metric">
+    <head>
+      <title>Beef Wellington with Red Wine Reduction</title>
+      <subtitle>A Classic French Masterpiece</subtitle>
+      <version>3.2</version>
+      <source>
+        <srcitem type="DC.Creator">Chef Auguste Dubois</srcitem>
+        <srcitem type="DC.Publisher">Le Cordon Bleu Cookbook</srcitem>
+        <srcitem type="DC.Date">2018</srcitem>
+        <srcitem type="DC.Rights">Professional Chef Series</srcitem>
+      </source>
+      <categories>
+        <cat type="meal">dinner</cat>
+        <cat type="course">main course</cat>
+        <cat type="cuisine">French</cat>
+        <cat type="protein">beef</cat>
+        <cat type="difficulty">advanced</cat>
+      </categories>
+      <preptime type="preparation">
+        <time>
+          <qty>45</qty>
+          <timeunit>minutes</timeunit>
+        </time>
+      </preptime>
+      <preptime type="chilling">
+        <time>
+          <qty>2</qty>
+          <timeunit>hours</timeunit>
+        </time>
+      </preptime>
+      <preptime type="cooking">
+        <time>
+          <qty>35</qty>
+          <timeunit>minutes</timeunit>
+        </time>
+      </preptime>
+      <preptime type="resting">
+        <time>
+          <qty>15</qty>
+          <timeunit>minutes</timeunit>
+        </time>
+      </preptime>
+      <yield>
+        <qty>6</qty>
+        <unit>servings</unit>
+      </yield>
+    </head>
+    
+    <description>
+      This elegant Beef Wellington features a perfectly seared beef tenderloin wrapped in 
+      mushroom duxelles and flaky puff pastry, served with a rich red wine reduction. 
+      While challenging, the results are spectacular and perfect for special occasions.
+    </description>
+    
+    <equipment>
+      <equip-div type="main">
+        <title>Essential Equipment</title>
+        <description>Basic equipment needed for the main preparation</description>
+        <tool>Large heavy-bottomed skillet</tool>
+        <tool>Food processor</tool>
+        <tool>Rolling pin</tool>
+        <tool>Baking sheet</tool>
+        <tool>Meat thermometer</tool>
+        <tool>Sharp carving knife</tool>
+      </equip-div>
+      
+      <equip-div type="optional">
+        <title>Optional Equipment</title>
+        <tool optional="yes">Kitchen twine</tool>
+        <tool optional="yes">Pastry brush</tool>
+        <tool optional="yes">Cooling rack</tool>
+      </equip-div>
+    </equipment>
+    
+    <ingredients>
+      <ing-div type="main">
+        <title>Beef Wellington</title>
+        <description>Main components for the wellington</description>
+        
+        <ing id="beef-tenderloin">
+          <amt>
+            <qty>1.2</qty>
+            <unit>kg</unit>
+          </amt>
+          <item>beef tenderloin</item>
+          <prep>center cut, trimmed</prep>
+          <ing-note>Ask butcher to trim and tie if needed</ing-note>
+        </ing>
+        
+        <ing>
+          <amt>
+            <qty>500</qty>
+            <unit>g</unit>
+          </amt>
+          <item>puff pastry</item>
+          <prep>thawed if frozen</prep>
+        </ing>
+        
+        <ing>
+          <amt>
+            <qty>300</qty>
+            <unit>g</unit>
+          </amt>
+          <item>mixed mushrooms</item>
+          <prep>finely chopped</prep>
+          <alt-ing>
+            <amt>
+              <qty>200</qty>
+              <unit>g</unit>
+            </amt>
+            <item>button mushrooms</item>
+            <amt>
+              <qty>100</qty>
+              <unit>g</unit>
+            </amt>
+            <item>shiitake mushrooms</item>
+          </alt-ing>
+        </ing>
+        
+        <ing>
+          <amt>
+            <qty>150</qty>
+            <unit>g</unit>
+          </amt>
+          <item>pâté de foie gras</item>
+          <prep>room temperature</prep>
+          <ing-note>Can substitute with mushroom pâté for vegetarian option</ing-note>
+        </ing>
+        
+        <ing>
+          <amt>
+            <qty>8</qty>
+            <unit>slices</unit>
+          </amt>
+          <item>prosciutto</item>
+          <prep>thinly sliced</prep>
+        </ing>
+        
+        <ing>
+          <amt>
+            <qty>2</qty>
+            <unit>cloves</unit>
+          </amt>
+          <item>garlic</item>
+          <prep>minced</prep>
+        </ing>
+        
+        <ing>
+          <amt>
+            <qty>2</qty>
+            <unit>shallots</unit>
+          </amt>
+          <item>shallots</item>
+          <prep>finely chopped</prep>
+        </ing>
+        
+        <ing>
+          <amt>
+            <qty>30</qty>
+            <unit>ml</unit>
+          </amt>
+          <item>olive oil</item>
+        </ing>
+        
+        <ing>
+          <amt>
+            <qty>2</qty>
+            <unit>sprigs</unit>
+          </amt>
+          <item>fresh thyme</item>
+        </ing>
+        
+        <ing>
+          <amt>
+            <qty>2</qty>
+            <unit>large</unit>
+          </amt>
+          <item>eggs</item>
+          <prep>beaten</prep>
+          <ing-note>For egg wash</ing-note>
+        </ing>
+        
+        <note type="Tip">
+          Quality ingredients make a significant difference in this dish. 
+          Choose the best beef tenderloin you can afford.
+        </note>
+      </ing-div>
+      
+      <ing-div type="sauce">
+        <title>Red Wine Reduction</title>
+        
+        <ing>
+          <amt>
+            <qty>500</qty>
+            <unit>ml</unit>
+          </amt>
+          <item>red wine</item>
+          <prep>good quality</prep>
+          <ing-note>Use something you would drink</ing-note>
+        </ing>
+        
+        <ing>
+          <amt>
+            <qty>250</qty>
+            <unit>ml</unit>
+          </amt>
+          <item>beef stock</item>
+        </ing>
+        
+        <ing>
+          <amt>
+            <qty>2</qty>
+            <unit>tablespoons</unit>
+          </amt>
+          <item>butter</item>
+          <prep>cold, cubed</prep>
+        </ing>
+        
+        <ing optional="yes">
+          <amt>
+            <qty>1</qty>
+            <unit>tablespoon</unit>
+          </amt>
+          <item>redcurrant jelly</item>
+          <ing-note>For extra richness</ing-note>
+        </ing>
+      </ing-div>
+      
+      <ing-div type="seasoning">
+        <title>Seasonings</title>
+        
+        <ing>
+          <item>sea salt</item>
+          <prep>to taste</prep>
+        </ing>
+        
+        <ing>
+          <item>freshly ground black pepper</item>
+          <prep>to taste</prep>
+        </ing>
+        
+        <ing optional="yes">
+          <amt>
+            <qty>1</qty>
+            <unit>teaspoon</unit>
+          </amt>
+          <item>fresh rosemary</item>
+          <prep>chopped</prep>
+        </ing>
+      </ing-div>
+    </ingredients>
+    
+    <directions>
+      <dir-div type="preparation" duration="30 minutes">
+        <title>Preparation</title>
+        <description>Initial preparation of all components</description>
+        
+        <step duration="5 minutes">
+          Season the <ingref ingid="beef-tenderloin">beef tenderloin</ingref> generously 
+          with salt and pepper on all sides.
+        </step>
+        
+        <step duration="8 minutes">
+          Heat olive oil in a <toolref toolid="heavy-skillet">large heavy-bottomed skillet</toolref> 
+          over <setting value="high">high heat</setting>. <action>Sear</action> the beef on all sides 
+          until <condition>golden brown</condition>, about 2 minutes per side.
+          <substep>
+            The beef should be beautifully caramelized but still raw inside.
+          </substep>
+        </step>
+        
+        <step duration="2 minutes">
+          Remove beef from heat and let <condition>cool completely</condition>. 
+          <action>Brush</action> with pâté de foie gras on all sides.
+        </step>
+        
+        <step duration="10 minutes">
+          For the mushroom duxelles: <action>Sauté</action> shallots and garlic in the same skillet 
+          for 2 minutes. Add mushrooms and thyme, cook until <condition>all moisture has evaporated</condition>, 
+          about 8 minutes. Season and <condition>cool completely</condition>.
+        </step>
+        
+        <step duration="5 minutes">
+          Lay out plastic wrap on work surface. Arrange prosciutto slices in overlapping layer. 
+          <action>Spread</action> mushroom mixture over prosciutto.
+        </step>
+      </dir-div>
+      
+      <dir-div type="assembly" duration="15 minutes">
+        <title>Wellington Assembly</title>
+        
+        <step duration="5 minutes">
+          Place beef at one end of prosciutto. Using plastic wrap, 
+          <action>roll tightly</action> to encase beef completely. 
+          <action>Twist</action> ends to secure and <action>refrigerate</action> for 
+          <steptime><time><qty>1</qty><timeunit>hour</timeunit></time></steptime>.
+        </step>
+        
+        <step duration="8 minutes">
+          <action>Roll out</action> puff pastry to accommodate beef. Remove plastic from beef. 
+          Place beef seam-side down on pastry. <action>Brush</action> pastry edges with egg wash.
+        </step>
+        
+        <step duration="2 minutes">
+          <action>Roll pastry</action> around beef, sealing seams with egg wash. 
+          Place seam-side down on baking sheet. <action>Brush</action> all over with egg wash.
+        </step>
+        
+        <note type="Technique">
+          Score the pastry decoratively with a knife, being careful not to cut through completely.
+        </note>
+        
+        <step>
+          <action>Refrigerate</action> for at least 
+          <steptime><time><qty>1</qty><timeunit>hour</timeunit></time></steptime> 
+          or overnight.
+        </step>
+      </dir-div>
+      
+      <dir-div type="cooking" duration="45 minutes">
+        <title>Cooking and Sauce</title>
+        
+        <step duration="2 minutes">
+          Preheat oven to <temp><qty>200</qty><tempunit unit="C">°C</tempunit></temp> 
+          (<temp><qty>400</qty><tempunit unit="F">°F</tempunit></temp>).
+        </step>
+        
+        <step duration="25 minutes">
+          <action>Bake</action> wellington for <steptime><time><qty>25</qty><timeunit>minutes</timeunit></time></steptime> 
+          until pastry is <condition>golden brown</condition> and internal temperature reaches 
+          <temp><qty>52</qty><tempunit unit="C">°C</tempunit></temp> 
+          (<temp><qty>125</qty><tempunit unit="F">°F</tempunit></temp>) for medium-rare.
+        </step>
+        
+        <step duration="15 minutes" type="simultaneous">
+          While wellington bakes, prepare red wine reduction: <action>Reduce</action> wine and stock 
+          in saucepan over <setting>medium-high heat</setting> until <condition>syrupy</condition>, 
+          about 15 minutes.
+        </step>
+        
+        <step duration="2 minutes">
+          <action>Whisk in</action> cold butter pieces and redcurrant jelly (if using). 
+          <action>Strain</action> and keep warm.
+        </step>
+        
+        <step duration="15 minutes" optional="no">
+          <action>Rest</action> wellington for <steptime><time><qty>10</qty><timeunit>minutes</timeunit></time></steptime> 
+          to <steptime><time><qty>15</qty><timeunit>minutes</timeunit></time></steptime> before slicing.
+          <substep>
+            This resting period is crucial for clean slicing.
+          </substep>
+        </step>
+      </dir-div>
+      
+      <dir-div type="serving">
+        <title>Serving</title>
+        
+        <step>
+          Using a sharp knife, <action>slice</action> wellington into 
+          <size><qty>2.5</qty><unit>cm</unit></size> thick portions. 
+          <action>Serve</action> immediately with red wine reduction.
+        </step>
+      </dir-div>
+    </directions>
+    
+    <nutrition standard="USDV">
+      <nutrient-group>
+        <title>Per Serving</title>
+        <nutrient>
+          <n-name>Calories</n-name>
+          <qty>680</qty>
+        </nutrient>
+        <nutrient>
+          <n-name>Protein</n-name>
+          <qty>45</qty>
+          <unit>g</unit>
+        </nutrient>
+        <nutrient>
+          <n-name>Total Fat</n-name>
+          <qty>42</qty>
+          <unit>g</unit>
+          <percent>65</percent>
+        </nutrient>
+        <nutrient>
+          <n-name>Saturated Fat</n-name>
+          <qty>18</qty>
+          <unit>g</unit>
+          <percent>90</percent>
+        </nutrient>
+        <nutrient>
+          <n-name>Carbohydrates</n-name>
+          <qty>28</qty>
+          <unit>g</unit>
+          <percent>9</percent>
+        </nutrient>
+        <nutrient>
+          <n-name>Sodium</n-name>
+          <qty>950</qty>
+          <unit>mg</unit>
+          <percent>40</percent>
+        </nutrient>
+        <nutrient>
+          <n-name>Iron</n-name>
+          <qty>6</qty>
+          <unit>mg</unit>
+          <percent>33</percent>
+        </nutrient>
+      </nutrient-group>
+    </nutrition>
+    
+    <note type="Warning">
+      This recipe contains raw eggs in the egg wash and may not be suitable for pregnant women, 
+      elderly, or immunocompromised individuals.
+    </note>
+    
+    <note type="Make-Ahead">
+      The wellington can be assembled up to 24 hours ahead and refrigerated before baking.
+    </note>
+    
+    <note type="Wine Pairing">
+      Serve with a full-bodied red wine such as Cabernet Sauvignon or Bordeaux.
+    </note>
+  </recipe>
+</recipeml>
