@@ -1,0 +1,61 @@
+/* Additional custom styles for RecipeML */
+.fraction {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.fraction .numerator {
+    display: block;
+    border-bottom: 1px solid #333;
+    font-size: 0.8em;
+    line-height: 1;
+}
+
+.fraction .denominator {
+    display: block;
+    font-size: 0.8em;
+    line-height: 1;
+}
+
+.recipe-meta {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border-radius: 12px;
+    border: 1px solid #dee2e6;
+}
+
+.nutrition-table {
+    font-size: 0.9em;
+}
+
+.equipment-list {
+    background: linear-gradient(135deg, #fff3cd 0%, #ffeaa7 100%);
+    border: 1px solid #ffeaa7;
+}
+
+.category-badge {
+    background: linear-gradient(135deg, #6f42c1 0%, #563d7c 100%);
+}
+
+.tool-reference, .ingredient-reference {
+    font-size: 0.85em;
+    font-weight: 500;
+    border-radius: 6px;
+    padding: 0.2rem 0.4rem;
+}
+
+.step-duration {
+    font-size: 0.8em;
+    color: #6c757d;
+    font-style: italic;
+}
+
+@media (max-width: 768px) {
+    .recipe-meta .row > div {
+        margin-bottom: 1rem;
+    }
+    
+    .fraction {
+        font-size: 0.9em;
+    }
+}
