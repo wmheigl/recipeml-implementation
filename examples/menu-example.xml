@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE recipeml PUBLIC "-//FormatData//DTD RecipeML 0.5//EN" "recipeml.dtd">
+<recipeml version="0.5" xml:lang="en">
+  <meta name="DC.Title" content="Spring Dinner Party Menu"/>
+  <meta name="DC.Creator" content="Chef Maria Rodriguez"/>
+  <meta name="DC.Date" content="2024-03-22"/>
+  <meta name="DC.Description" content="A complete three-course menu for spring entertaining"/>
+  <meta name="DC.Type" content="Menu"/>
+  
+  <menu>
+    <head>
+      <title>Spring Dinner Party Menu</title>
+      <subtitle>A Fresh Take on Seasonal Ingredients</subtitle>
+      <version>1.0</version>
+      <source>
+        <srcitem type="DC.Creator">Chef Maria Rodriguez</srcitem>
+        <srcitem type="DC.Publisher">Seasonal Kitchen</srcitem>
+      </source>
+      <categories>
+        <cat type="season">spring</cat>
+        <cat type="occasion">dinner party</cat>
+        <cat type="style">contemporary</cat>
+      </categories>
+      <yield>
+        <qty>6</qty>
+        <unit>servings</unit>
+      </yield>
+    </head>
+    
+    <description>
+      This elegant spring menu celebrates the season's first fresh ingredients with 
+      light, vibrant flavors perfect for entertaining. Each course builds upon the last, 
+      creating a memorable dining experience that showcases the best of spring produce.
+    </description>
+    
+    <recipe>
+      <head>
+        <title>Asparagus and Pea Soup with Mint Oil</title>
+        <subtitle>First Course</subtitle>
+        <categories>
+          <cat type="course">appetizer</cat>
+          <cat type="ingredient">asparagus</cat>
+          <cat type="dietary">vegetarian</cat>
+        </categories>
+        <preptime type="preparation">
+          <time>
+            <qty>20</qty>
+            <timeunit>minutes</timeunit>
+          </time>
+        </preptime>
+        <preptime type="cooking">
+          <time>
+            <qty>25</qty>
+            <timeunit>minutes</timeunit>
+          </time>
+        </preptime>
+        <yield>
+          <qty>6</qty>
+          <unit>servings</unit>
+        </yield>
+      </head>
+      
+      <ingredients>
+        <ing>
+          <amt>
+            <qty>500</qty>
+            <unit>g</unit>
+          </amt>
+          <item>fresh asparagus</item>
+          <prep>trimmed and chopped</prep>
+        </ing>
+        <ing>
+          <amt>
+            <qty>200</qty>
+            <unit>g</unit>
+          </amt>
+          <item>fresh peas</item>
+        </ing>
+        <ing>
+          <amt>
+            <qty>1</qty>
+            <unit>litre</unit>
+          </amt>
+          <item>vegetable stock</item>
+        </ing>
+        <ing>
+          <amt>
+            <qty>100</qty>
+            <unit>ml</unit>
+          </amt>
+          <item>double cream</item>
+        </ing>
+        <ing>
+          <amt>
+            <qty>2</qty>
+            <unit>tablespoons</unit>
+          </amt>
+          <item>fresh mint</item>
+          <prep>chopped</prep>
+        </ing>
+        <ing>
+          <amt>
+            <qty>3</qty>
+            <unit>tablespoons</unit>
+          </amt>
+          <item>olive oil</item>
+        </ing>
+      </ingredients>
+      
+      <directions>
+        <step>
+          <action>Simmer</action> asparagus and peas in stock for 15 minutes until tender.
+        </step>
+        <step>
+          <action>Blend</action> until smooth, then <action>stir in</action> cream.
+        </step>
+        <step>
+          <action>Blend</action> mint with olive oil to make mint oil.
+        </step>
+        <step>
+          <action>Serve</action> hot with a drizzle of mint oil.
+        </step>
+      </directions>
+    </recipe>
+    
+    <recipe>
+      <head>
+        <title>Pan-Seared Salmon with Lemon Herb Crust</title>
+        <subtitle>Main Course</subtitle>
+        <categories>
+          <cat type="course">main course</cat>
+          <cat type="protein">salmon</cat>
+          <cat type="cooking-method">pan-seared</cat>
+        </categories>
+        <preptime type="preparation">
+          <time>
+            <qty>15</qty>
+            <timeunit>minutes</timeunit>
+          </time>
+        </preptime>
+        <preptime type="cooking">
+          <time>
+            <qty>12</qty>
+            <timeunit>minutes</timeunit>
+          </time>
+        </preptime>
+        <yield>
+          <qty>6</qty>
+          <unit>portions</unit>
+        </yield>
+      </head>
+      
+      <ingredients>
+        <ing>
+          <amt>
+            <qty>6</qty>
+            <unit>fillets</unit>
+          </amt>
+          <item>salmon</item>
+          <prep>skin-on, 150g each</prep>
+        </ing>
+        <ing>
+          <amt>
+            <qty>100</qty>
+            <unit>g</unit>
+          </amt>
+          <item>fresh breadcrumbs</item>
+        </ing>
+        <ing>
+          <amt>
+            <qty>2</qty>
+            <unit>tablespoons</unit>
+          </amt>
+          <item>fresh dill</item>
+          <prep>chopped</prep>
+        </ing>
+        <ing>
+          <amt>
+            <qty>2</qty>
+            <unit>tablespoons</unit>
+          </amt>
+          <item>fresh parsley</item>
+          <prep>chopped</prep>
+        </ing>
+        <ing>
+          <amt>
+            <qty>1</qty>
+            <unit>lemon</unit>
+          </amt>
+          <item>lemon</item>
+          <prep>zested and juiced</prep>
+        </ing>
+        <ing>
+          <amt>
+            <qty>3</qty>
+            <unit>tablespoons</unit>
+          </amt>
+          <item>olive oil</item>
+        </ing>
+        <ing>
+          <amt>
+            <qty>400</qty>
+            <unit>g</unit>
+          </amt>
+          <item>baby potatoes</item>
+          <prep>halved</prep>
+        </ing>
+        <ing>
+          <amt>
+            <qty>200</qty>
+            <unit>g</unit>
+          </amt>
+          <item>green beans</item>
+          <prep>trimmed</prep>
+        </ing>
+      </ingredients>
+      
+      <directions>
+        <step>
+          <action>Combine</action> breadcrumbs, herbs, lemon zest, and 2 tablespoons olive oil.
+        </step>
+        <step>
+          <action>Boil</action> potatoes for 12 minutes until tender. <action>Steam</action> green beans for 4 minutes.
+        </step>
+        <step>
+          <action>Heat</action> remaining oil in large pan. <action>Sear</action> salmon skin-side down for 4 minutes.
+        </step>
+        <step>
+          <action>Flip</action> salmon, <action>top</action> with herb crust, cook 3-4 minutes more.
+        </step>
+        <step>
+          <action>Serve</action> with potatoes and green beans, drizzled with lemon juice.
+        </step>
+      </directions>
+    </recipe>
+    
+    <recipe>
+      <head>
+        <title>Strawberry Rhubarb Galette</title>
+        <subtitle>Dessert</subtitle>
+        <categories>
+          <cat type="course">dessert</cat>
+          <cat type="ingredient">strawberry</cat>
+          <cat type="style">rustic</cat>
+        </categories>
+        <preptime type="preparation">
+          <time>
+            <qty>30</qty>
+            <timeunit>minutes</timeunit>
+          </time>
+        </preptime>
+        <preptime type="chilling">
+          <time>
+            <qty>1</qty>
+            <timeunit>hour</timeunit>
+          </time>
+        </preptime>
+        <preptime type="baking">
+          <time>
+            <qty>45</qty>
+            <timeunit>minutes</timeunit>
+          </time>
+        </preptime>
+        <yield>
+          <qty>8</qty>
+          <unit>slices</unit>
+        </yield>
+      </head>
+      
+      <ingredients>
+        <ing-div type="pastry">
+          <title>Pastry</title>
+          <ing>
+            <amt>
+              <qty>250</qty>
+              <unit>g</unit>
+            </amt>
+            <item>plain flour</item>
+          </ing>
+          <ing>
+            <amt>
+              <qty>125</qty>
+              <unit>g</unit>
+            </amt>
+            <item>cold butter</item>
+            <prep>cubed</prep>
+          </ing>
+          <ing>
+            <amt>
+              <qty>50</qty>
+              <unit>g</unit>
+            </amt>
+            <item>caster sugar</item>
+          </ing>
+          <ing>
+            <amt>
+              <qty>1</qty>
+              <unit>large</unit>
+            </amt>
+            <item>egg yolk</item>
+          </ing>
+          <ing>
+            <amt>
+              <qty>2</qty>
+              <unit>tablespoons</unit>
+            </amt>
+            <item>cold water</item>
+          </ing>
+        </ing-div>
+        
+        <ing-div type="filling">
+          <title>Filling</title>
+          <ing>
+            <amt>
+              <qty>400</qty>
+              <unit>g</unit>
+            </amt>
+            <item>fresh strawberries</item>
+            <prep>hulled and halved</prep>
+          </ing>
+          <ing>
+            <amt>
+              <qty>300</qty>
+              <unit>g</unit>
+            </amt>
+            <item>rhubarb</item>
+            <prep>chopped</prep>
+          </ing>
+          <ing>
+            <amt>
+              <qty>75</qty>
+              <unit>g</unit>
+            </amt>
+            <item>caster sugar</item>
+          </ing>
+          <ing>
+            <amt>
+              <qty>2</qty>
+              <unit>tablespoons</unit>
+            </amt>
+            <item>cornflour</item>
+          </ing>
+          <ing>
+            <amt>
+              <qty>1</qty>
+              <unit>teaspoon</unit>
+            </amt>
+            <item>vanilla extract</item>
+          </ing>
+          <ing>
+            <amt>
+              <qty>1</qty>
+              <unit>large</unit>
+            </amt>
+            <item>egg</item>
+            <prep>beaten, for glazing</prep>
+          </ing>
+        </ing-div>
+      </ingredients>
+      
+      <directions>
+        <dir-div type="pastry">
+          <title>Make Pastry</title>
+          <step>
+            <action>Rub</action> butter into flour until it resembles breadcrumbs.
+          </step>
+          <step>
+            <action>Stir in</action> sugar, then egg yolk and water to form dough.
+          </step>
+          <step>
+            <action>Wrap</action> and <action>chill</action> for 1 hour.
+          </step>
+        </dir-div>
+        
+        <dir-div type="assembly">
+          <title>Assemble Galette</title>
+          <step>
+            Preheat oven to <temp><qty>200</qty><tempunit unit="C">°C</tempunit></temp>.
+          </step>
+          <step>
+            <action>Mix</action> strawberries, rhubarb, sugar, cornflour, and vanilla.
+          </step>
+          <step>
+            <action>Roll</action> pastry into 30cm circle on baking paper.
+          </step>
+          <step>
+            <action>Pile</action> fruit in center, leaving 5cm border.
+          </step>
+          <step>
+            <action>Fold</action> pastry edges over fruit, <action>brush</action> with beaten egg.
+          </step>
+          <step>
+            <action>Bake</action> for 40-45 minutes until golden.
+          </step>
+        </dir-div>
+      </directions>
+      
+      <note type="Serving">
+        Serve warm with vanilla ice cream or crème fraîche.
+      </note>
+    </recipe>
+    
+    <note type="Planning">
+      The soup and galette pastry can be made a day ahead. Start the galette 2 hours before serving.
+    </note>
+    
+    <note type="Wine Pairing">
+      Pair the first course with a crisp Sauvignon Blanc, the salmon with Chardonnay, 
+      and finish with a light dessert wine or Prosecco.
+    </note>
+    
+    <note type="Dietary">
+      The soup and galette are vegetarian. The salmon can be substituted with portobello mushrooms 
+      for a vegetarian main course.
+    </note>
+  </menu>
+</recipeml>
