@@ -1,6 +1,6 @@
 # RecipeML Implementation
 
-A complete implementation of RecipeML 0.5 specification with DTD validation and modern HTML rendering via XSL transformation.
+A comprehensive implementation of the RecipeML 0.5 specification featuring complete DTD validation, responsive Bootstrap 5 XSL stylesheet, and a static testing website. Transform XML recipe documents into beautiful, mobile-friendly web pages with support for fractions, measurements, equipment lists, nutrition data, and complex recipe structures. Perfect for developers working with recipe data or anyone wanting to create structured, semantic recipe documents.
 
 ## Overview
 
