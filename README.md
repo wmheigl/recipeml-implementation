@@ -165,7 +165,7 @@ The RecipeML specification is subject to the RecipeML Public License. See the or
 ## Related Projects
 
 - [Original RecipeML](http://www.formatdata.com/recipeml/) - FormatData's original specification
-- [Largo Recipes](http://www.largo-software.com/) - Software supporting RecipeML
+- [Largo Recipes](https://sourceforge.net/projects/largorecipes/) - Software supporting RecipeML
 - [Recipe Markup Formats](https://microformats.org/wiki/recipe-formats) - Comparison of recipe formats
 
 ---
