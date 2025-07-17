@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE recipeml PUBLIC "-//FormatData//DTD RecipeML 0.5//EN" "recipeml.dtd">
+<recipeml version="0.5" xml:lang="en">
+  <meta name="DC.Title" content="Classic Chocolate Chip Cookies"/>
+  <meta name="DC.Creator" content="Jane Smith"/>
+  <meta name="DC.Date" content="2024-03-15"/>
+  <meta name="DC.Description" content="A traditional chocolate chip cookie recipe"/>
+  
+  <recipe>
+    <head>
+      <title>Classic Chocolate Chip Cookies</title>
+      <subtitle>Grandma's Famous Recipe</subtitle>
+      <version>2.1</version>
+      <source>
+        <srcitem type="DC.Creator">Jane Smith</srcitem>
+        <srcitem type="DC.Publisher">Family Cookbook</srcitem>
+        <srcitem type="DC.Date">1985</srcitem>
+      </source>
+      <categories>
+        <cat type="course">dessert</cat>
+        <cat type="cuisine">American</cat>
+        <cat type="ingredient">chocolate</cat>
+      </categories>
+      <preptime type="preparation">
+        <time>
+          <qty>15</qty>
+          <timeunit>minutes</timeunit>
+        </time>
+      </preptime>
+      <preptime type="baking">
+        <time>
+          <qty>12</qty>
+          <timeunit>minutes</timeunit>
+        </time>
+      </preptime>
+      <yield>
+        <qty>24</qty>
+        <unit>cookies</unit>
+      </yield>
+    </head>
+    
+    <description>
+      These classic chocolate chip cookies are crispy on the outside and chewy on the inside. 
+      Perfect for any occasion and guaranteed to bring back childhood memories.
+    </description>
+    
+    <equipment>
+      <tool>Large mixing bowl</tool>
+      <tool>Electric mixer</tool>
+      <tool>Measuring cups and spoons</tool>
+      <tool>Baking sheets</tool>
+      <tool optional="yes">Cookie scoop</tool>
+    </equipment>
+    
+    <ingredients>
+      <ing>
+        <amt>
+          <qty>2<frac><n>1</n><d>4</d></frac></qty>
+          <unit>cups</unit>
+        </amt>
+        <item>all-purpose flour</item>
+      </ing>
+      <ing>
+        <amt>
+          <qty>1</qty>
+          <unit>teaspoon</unit>
+        </amt>
+        <item>baking soda</item>
+      </ing>
+      <ing>
+        <amt>
+          <qty>1</qty>
+          <unit>teaspoon</unit>
+        </amt>
+        <item>salt</item>
+      </ing>
+      <ing>
+        <amt>
+          <qty>1</qty>
+          <unit>cup</unit>
+        </amt>
+        <item>butter</item>
+        <prep>softened</prep>
+      </ing>
+      <ing>
+        <amt>
+          <qty>
+            <range>
+              <q1><frac><n>3</n><d>4</d></frac></q1>
+              <sep>to</sep>
+              <q2>1</q2>
+            </range>
+          </qty>
+          <unit>cup</unit>
+        </amt>
+        <item>brown sugar</item>
+        <prep>packed</prep>
+      </ing>
+      <ing>
+        <amt>
+          <qty><frac><n>1</n><d>2</d></frac></qty>
+          <unit>cup</unit>
+        </amt>
+        <item>granulated sugar</item>
+      </ing>
+      <ing>
+        <amt>
+          <qty>2</qty>
+          <unit>large</unit>
+        </amt>
+        <item>eggs</item>
+      </ing>
+      <ing>
+        <amt>
+          <qty>2</qty>
+          <unit>teaspoons</unit>
+        </amt>
+        <item>vanilla extract</item>
+      </ing>
+      <ing>
+        <amt>
+          <qty>2</qty>
+          <unit>cups</unit>
+        </amt>
+        <item>chocolate chips</item>
+        <alt-ing>
+          <amt>
+            <qty>2</qty>
+            <unit>cups</unit>
+          </amt>
+          <item>chopped walnuts</item>
+        </alt-ing>
+        <alt-ing>
+          <amt>
+            <qty>1</qty>
+            <unit>cup</unit>
+          </amt>
+          <item>chocolate chips</item>
+          <amt>
+            <qty>1</qty>
+            <unit>cup</unit>
+          </amt>
+          <item>chopped walnuts</item>
+        </alt-ing>
+      </ing>
+    </ingredients>
+    
+    <directions>
+      <step duration="2 minutes">
+        Preheat oven to <temp><qty>375</qty><tempunit unit="F">°F</tempunit></temp>.
+      </step>
+      
+      <step duration="3 minutes">
+        In a medium bowl, <action>whisk together</action> flour, baking soda, and salt. 
+        <condition>Set aside</condition>.
+      </step>
+      
+      <step duration="5 minutes">
+        In a large bowl, <action>cream together</action> the softened butter and both sugars 
+        until <condition>light and fluffy</condition>.
+      </step>
+      
+      <step duration="2 minutes">
+        <action>Beat in</action> eggs one at a time, then add vanilla extract.
+      </step>
+      
+      <step duration="2 minutes">
+        <action>Gradually mix in</action> the flour mixture until just combined. 
+        Do not overmix.
+      </step>
+      
+      <step duration="1 minute">
+        <action>Stir in</action> chocolate chips.
+      </step>
+      
+      <step duration="5 minutes">
+        <action>Drop rounded tablespoons</action> of dough onto ungreased baking sheets, 
+        spacing them about 2 inches apart.
+      </step>
+      
+      <step duration="12 minutes">
+        <action>Bake</action> for <steptime><time><qty>10</qty><timeunit>minutes</timeunit></time></steptime> 
+        to <steptime><time><qty>12</qty><timeunit>minutes</timeunit></time></steptime>, 
+        or until <condition>edges are golden brown</condition>.
+      </step>
+      
+      <step duration="5 minutes">
+        <action>Cool</action> on baking sheet for 5 minutes, then transfer to wire rack.
+      </step>
+    </directions>
+    
+    <nutrition standard="USDV">
+      <nutrient-group>
+        <title>Macronutrients (per cookie)</title>
+        <nutrient>
+          <n-name>Calories</n-name>
+          <qty>150</qty>
+        </nutrient>
+        <nutrient>
+          <n-name>Total Fat</n-name>
+          <qty>7</qty>
+          <unit>g</unit>
+          <percent>11</percent>
+        </nutrient>
+        <nutrient>
+          <n-name>Saturated Fat</n-name>
+          <qty>4</qty>
+          <unit>g</unit>
+          <percent>20</percent>
+        </nutrient>
+        <nutrient>
+          <n-name>Cholesterol</n-name>
+          <qty>25</qty>
+          <unit>mg</unit>
+          <percent>8</percent>
+        </nutrient>
+        <nutrient>
+          <n-name>Sodium</n-name>
+          <qty>120</qty>
+          <unit>mg</unit>
+          <percent>5</percent>
+        </nutrient>
+        <nutrient>
+          <n-name>Total Carbohydrates</n-name>
+          <qty>22</qty>
+          <unit>g</unit>
+          <percent>7</percent>
+        </nutrient>
+        <nutrient>
+          <n-name>Dietary Fiber</n-name>
+          <qty>1</qty>
+          <unit>g</unit>
+          <percent>4</percent>
+        </nutrient>
+        <nutrient>
+          <n-name>Sugars</n-name>
+          <qty>12</qty>
+          <unit>g</unit>
+        </nutrient>
+        <nutrient>
+          <n-name>Protein</n-name>
+          <qty>2</qty>
+          <unit>g</unit>
+        </nutrient>
+      </nutrient-group>
+    </nutrition>
+    
+    <diet-exchanges authority="American Diabetes Association">
+      <exchange>
+        <qty>1</qty> Carbohydrate
+      </exchange>
+      <exchange>
+        <qty>1<frac><n>1</n><d>2</d></frac></qty> Fat
+      </exchange>
+    </diet-exchanges>
+    
+    <note type="Tip">
+      For extra chewy cookies, slightly underbake them and let them finish cooking 
+      on the hot baking sheet.
+    </note>
+    
+    <note type="Storage">
+      Store in an airtight container for up to 1 week, or freeze for up to 3 months.
+    </note>
+  </recipe>
+</recipeml>
